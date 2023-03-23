@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+   *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat Alternates', sans-serif;
+      text-decoration: none;
+    list-style: none;
+
+
+   }
+
+
+   body{
+      
+      background-color: #ffffff;
+       background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: top left;
+      background-image: url("logo.jpg") ;
+      
+
+     
+   }
+   /*Estilos para el encabezado*/
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D32F2F ;
+    padding-left: 2vw;
+    color:#ffffff;
+
+}
+
+.cont-ul {
+    display: flex;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition:  all .3s ease 0s;
+}
+
+li:hover {
+    background-color: #B71C1C ;
+}
+
+.develop {
+    position: relative;
+}
+
+.ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+}
+
+.ul-second > li {
+    width: 190px;
+      height:35px ;
+    transform: translateX(-20px);
+    border-bottom:solid 1px #fff ;
+    text-align: center;
+    background-color:  #D32F2F;
+    color: #B71C1C;
+}
+
+
+.ul-second > li:hover {
+    background-color:#B71C1C ;
+}
+
+.develop:hover > .ul-second {
+    display: block;
+}
+.cont-ul a{
+   text-decoration:none;
+   color: #ffffff;
+  text-decoration: none;
+
+}
+   
+   /*Fin de Estilos para el encabezado*/
+   /************************************************/
+.titulo{
+   font-size: 30px ;
+   text-align: center;
+}
+
+#titulo2{
+   font-size: 28px ;
+    text-align: center;
+}
+.titulo3{
+   font-size: 30x ;
+   
+}
+
+
+.postura{
+
+    z-index: 1;
+    width: 850px;
+    height: 750px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    margin: 0 auto;
+    font-family: monospace ,sans-serif;
+}
+.foto {
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+/****************************************/
+.definicion{
+
+    z-index: 1;
+    width: 850px;
+    height: 130px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    margin: 0 auto;
+    font-family: monospace ,sans-serif;
+}
+
+   /**********************************************/
+
+#directorio{
+   text-align:center;
+   font-family:;
+   background-color:#424949 ;
+   color:#707B7C;
+   }
+  
